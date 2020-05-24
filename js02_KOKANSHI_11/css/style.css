@@ -1,0 +1,87 @@
+body {
+  margin: 50px auto;
+  padding: 0;
+  text-align: left;
+  font-size: 32px;
+  width: 640px;
+  font-family: 'YuGothic','Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ ゴシック',sans-serif;
+}
+
+header {
+  background-color: pink;
+  text-align: center;
+}
+h1 {
+  font-size: 42px;
+  color: #0d7dfd;
+  border-radius: 10px;
+}
+main{
+  text-align: center;
+}
+
+
+/* 連絡先フォームCSS */
+.form_wrapper{
+  width: 638px;
+  margin: auto;
+  border: 1px solid #888888;
+  border-radius: 10px;
+  background: pink;
+}
+.form_inner{
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+label{
+  cursor: pointer;
+}
+.form_title{
+  text-align: right;
+  width: 200px;
+  margin-bottom: 16px;
+}
+.form_item{
+  width: 400px;
+  margin:0 0 16px 0;
+}
+input{
+  font-size: 20px;
+  border: 1px solid #888888;
+  border-radius: 10px;
+  padding:5px ;
+  width: 300px;
+}
+
+/* button form  css*/
+.form_wrapper_2{
+  width: 638px;
+  margin: auto;
+}
+.list{
+  display: flex;
+  padding: 0px;
+}
+.item{
+  width: 319px;
+  list-style: none;
+  border: 1px solid #888888;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #0d7dfd;
+  background: plum;
+  text-align: center;
+}
+.item:hover {
+  background: #0d7dfd;
+  color: #fff;
+}
+
+footer {
+  margin-top: 150px;
+  background-color: #fff;
+  border-bottom: 1px solid #888888;
+  text-align: center;
+}
